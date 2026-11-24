@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# =====================================================
 # F9: Network Traffic Evidence Capture using tcpdump
 #
 # Usage:
@@ -10,8 +9,6 @@
 #   ./capture.sh portscan 20
 #
 # Run this script BEFORE launching the test traffic.
-# =====================================================
-
 # Input arguments
 NAME=${1:-capture}
 SECS=${2:-20}
@@ -41,9 +38,9 @@ wait
 
 # Display completion message
 echo ""
-echo "======================================"
+echo "-----------------------------------"
 echo "Network traffic capture completed!"
-echo "======================================"
+echo "-----------------------------------"
 
 echo "Saved files:"
 echo "$CAPTURE_DIR/${NAME}_s1-eth2.pcap"
