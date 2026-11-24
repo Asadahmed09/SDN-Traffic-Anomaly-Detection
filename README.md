@@ -1,5 +1,3 @@
-[writing-block.md](https://github.com/user-attachments/files/35360425/writing-block.md)
- 
 # SDN Network Telemetry and Traffic Anomaly Detection
 
 A Software-Defined Networking (SDN) project built with **Ryu, OpenFlow 1.3, Mininet, and Open vSwitch** to monitor network traffic, extract flow-level features, detect suspicious activity, and automatically block suspicious source IP addresses.
